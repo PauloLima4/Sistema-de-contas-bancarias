@@ -37,25 +37,3 @@ class SavingsAccount {
 }
 
 module.exports = SavingsAccount;
-
-
-
-// class SavingsAccount{
-//     constructor(accountHolder, interestRate) {
-//     this.accountHolder = accountHolder;
-//     this.interest = interestRate;
-//   }
-
-//   applyInterest() {
-//     const interest = this.getBalance() * (this.interestRate / 100);
-//     this.deposit(interest);
-//     console.log(`Saldo total de ${this.getAccountHolder()}: R$${(this.getBalance() - interest).toFixed(2)} | Aplicado ${this.interestRate}% de juros`);
-//     console.log(`Novo saldo total: R$${this.getBalance().toFixed(2)}`);
-//   }
-// }
-
-// module.exports = SavingsAccount;
-
-// class SavingsAccount extends BankAccount {
-//   #interestRate;
-
